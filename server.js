@@ -102,7 +102,7 @@ io.on('connection', socket => {
         socket.emit('gameStarted');
     }
 
-    socket.emit('welcom', "welcome to skribbl");
+    socket.emit('welcome', "welcome to skribbl");
 
     socket.on('position', position => {
         // Broadcast the message to all clients

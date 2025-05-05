@@ -1,9 +1,8 @@
 # Skribbl.io clone 🎨
 
 ###  What is skribbl.io?
-Skribbl Game Clone: A multiplayer online drawing and guessing game inspired by [Skribbl.io](http://skribbl.io "Skribbl.io"), implemented using Node.js and Socket.io.
+Skribbl Game Clone: A multiplayer online drawing and guessing game inspired by, implemented using Node.js and Socket.io.
 This project allows players to take turns and draw a given word while other players try to guess it. With real-time communication through Socket.io, players can chat, exchange drawings, and compete in a lively and interactive gaming environment. Join the fun and unleash your artistic skills in this exciting Skribbl game clone. 🎨
-This is my first attempt to make a clone of an actual game.
 
 ------------
 
@@ -23,6 +22,7 @@ This is my first attempt to make a clone of an actual game.
 ##### Required Packages:
 ######  [Express JS](http://www.npmjs.com/package/express "Express JS")
 `$ npm install express`
+`$ npm install cors http dotenv`
 
 ######  [socket.io](http://www.npmjs.com/package/socket.io "socket.io")
 `$ npm install socket.io`
@@ -30,7 +30,7 @@ This is my first attempt to make a clone of an actual game.
 ##### To run the game server:
 `$ node server.js`
 
-The game will then be accessible at [localhost:3000](http://localhost:3000 "localhost:3000"). The default port is 3000, however this can be changed in the server code, or enter the server IP address and port after [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding "port forwarding").
+The game will then be accessible at [localhost:3000](http://localhost:3000 "localhost:3000"). The default port is 3000, however this can be changed in the server code, or enter the server IP address and port after [port forwarding](https://en.wikipedia.org/wiki/Port_forwarding "port forwarding") or else we cann use ngrock.
 
 ------------
 ###  For Game Admin:

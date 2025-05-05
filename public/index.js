@@ -70,8 +70,8 @@ waitingDiv = `
 
 choosingWord = ``;
 
-votingDiv = ` <button onclick="voteUp();document.querySelector('.voting').innerHTML='';"><img id="thumbsUp" src="images/thumbsUp.gif"></button>
-<button onclick="voteDown();document.querySelector('.voting').innerHTML='';"><img id="thumbsDown" src="images/thumbsDown.gif"></button>`;
+votingDiv = ` <button onclick="voteUp();document.querySelector('.voting').innerHTML='';"><img id="thumbsUp" src="images/thumbsup.gif"></button>
+<button onclick="voteDown();document.querySelector('.voting').innerHTML='';"><img id="thumbsDown" src="images/thumbsdown.gif"></button>`;
 
 
 window.addEventListener('load', () => {
