@@ -1,7 +1,7 @@
-# Skribbl.io clone 🎨
+# Skribbl.io  🎨
 
 ###  What is skribbl.io?
-Skribbl Game Clone: A multiplayer online drawing and guessing game inspired by, implemented using Node.js and Socket.io.
+Skribbl Game : A multiplayer online drawing and guessing game inspired by, implemented using Node.js and Socket.io.
 This project allows players to take turns and draw a given word while other players try to guess it. With real-time communication through Socket.io, players can chat, exchange drawings, and compete in a lively and interactive gaming environment. Join the fun and unleash your artistic skills in this exciting Skribbl game clone. 🎨
 
 ------------
